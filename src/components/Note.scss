@@ -9,6 +9,10 @@
     margin-left: var(--note-margin-horz);
     margin-right: var(--note-margin-horz);
     cursor: pointer;
+    opacity:0.7;
+    &:hover {
+        opacity: 1;
+    }
 }
 
 .note.on {

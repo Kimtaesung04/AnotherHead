@@ -60,6 +60,7 @@ function App() {
 
     return (
         <Provider>
+            
             <main className="app">
                 <header className="app_header">
                     <h1 className="app_title">Enjoy Your Beat!</h1>

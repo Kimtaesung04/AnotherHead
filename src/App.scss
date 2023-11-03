@@ -5,24 +5,20 @@
 
     html {
     font-size: var(--base-font-size);
-    color: var(--color-fg)
+    color: var(--color-fg);
+    
 }
 
-    .app {
+.app {
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     width: var(--app-max-width);
     visibility: var(--app-visibility);
     background-color: var(--color-bg);
-    padding: 20px;
+    padding:20px;
 }
 
-    @media only screen and (min-width: 820px) {
-    .app {
-        margin-top: var(--spacer);
-        margin-bottom: var(--spacer);
-    }
-}
 
     .app_header {
     display: flex;
@@ -34,8 +30,8 @@
 }
 
     .app_title {
-    font-size: 2.2rem;
-    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 700;
     flex: 1;
 }
 
@@ -46,4 +42,5 @@
     margin-bottom: var(--spacer);
     position: relative;
     transform: translateZ(0);
+    
 }
