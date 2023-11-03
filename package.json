@@ -9,6 +9,12 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "homepage": "https://kimtaesung-drum-sequencer.netlify.app/",
+  "eslintConfig": {
+    "extends":[
+      "react-app"
+    ]
+  },
   "dependencies": {
     "classnames": "^2.3.2",
     "react": "^18.2.0",
